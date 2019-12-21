@@ -1,6 +1,7 @@
 # ConradViewTool
 
-Various viiew specific methods for apps i use
+> Various viiew specific methods for apps i use
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -18,9 +19,9 @@ Or install it yourself as:
     $ gem install conrad_view_tool
 
 ## Usage
-
-TODO: Write usage instructions here
-
+```ruby
+ConradViewTool::Renderer.copyright 'Anthony Conrad', 'All rights reserved'
+```
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
